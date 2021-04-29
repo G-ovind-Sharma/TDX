@@ -14,10 +14,7 @@ div,section,ul,li,a,header{
     box-sizing: border-box;
 }
 /*Css Reset*/
-/* #logo{
-   width: 10%;
-   height: 10%;
-} */
+
 header{ 
     width: 100%;
     display: flex;
@@ -26,6 +23,7 @@ header{
     align-items: center;
     position: fixed;
     z-index: 999;
+    background-color: white;
 }
 #navbar li{
     list-style: none;
@@ -34,10 +32,18 @@ header{
 }
 
 #navbar li a{
-    color:floralwhite;
+    color:#000;
     text-decoration: none;
-    font-size: 20px;
-    
+    font-size: 20.5px;
+    font-family:MerriWeather;
+}
+#navbar a:hover{
+    color:#b62fd1;
+    text-decoration: underline;
+    font-size: 30px;
+    font-family:MerriWeather;
+    transition: all 0.55s;
+    letter-spacing: 1.5px;
 }
 section{
     width: 100%;
@@ -47,7 +53,8 @@ section{
 }
 
 #welcome{
-background-color: #212121;
+background-image: url('Logo/close-up-green-bush.jpg');
+background-size:cover;   
 }
 #about{
     background-color: #323232;
@@ -63,8 +70,21 @@ background-color: #212121;
 }
 h1{
     position: absolute;
-     top: 50%;
-     left: 50%;
-     transform: translate(-50%,-50%);
-     color: #fff;   
+    font-size: 38px;
+     top: 35%;
+     left: 37.5%;
+     transform: translate(-78%,-50%);
+     color:#fff;   
+     font-family:MerriWeather;
+     
+}
+p{
+    position: absolute;
+     top: 55%;
+     left: 45%;
+     transform: translate(-79%,-20%);
+     color:#fff;   
+     word-spacing:8px;
+     font-family:MerriWeather;
+     font-size: 30px;
 }
