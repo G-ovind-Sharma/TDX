@@ -1,20 +1,30 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
-  font-size: 100%;
-  font-family: sans-serif;  
+
+body {
+    font-size: 100%;
+    font-family: sans-serif;
 }
-div,section,ul,li,a,header{
+
+div,
+section,
+ul,
+li,
+a,
+header {
     box-sizing: border-box;
 }
+
+
 /*Css Reset*/
 
-header{ 
+header {
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
@@ -25,39 +35,43 @@ header{
     z-index: 999;
     background-color: white;
 }
-#navbar li{
-    list-style: none    ;
+
+#navbar li {
+    list-style: none;
     display: inline-block;
     margin: 20px;
 }
 
-#navbar li a{
-    color:#000;
+#navbar li a {
+    color: #000;
     text-decoration: none;
     font-size: 17.5px;
-    font-family:MerriWeather;
+    font-family: MerriWeather;
     text-transform: uppercase;
 }
-#navbar a:hover{
-    color:#b62fd1;
+
+#navbar a:hover {
+    color: #b62fd1;
     text-decoration: underline;
     font-size: 30px;
-    font-family:MerriWeather;
+    font-family: MerriWeather;
     transition: all 0.55s;
     letter-spacing: 1.5px;
 }
-section{
+
+section {
     width: 100%;
     float: none;
     height: 100vh;
     position: relative;
 }
 
-#welcome{
-background-image: url('Logo/background-texture-natural-leaves-dark-green.jpg');
-background-size:cover;   
+#welcome {
+    background-image: url('Logo/background-texture-natural-leaves-dark-green.jpg');
+    background-size: cover;
 }
-#about{
+
+#about {
     width: 100%;
     /* background-image: url('Logo/nastuh-abootalebi-ZtC4_rPCRXA-unsplash.jpg'); */
     background-size: cover;
@@ -65,20 +79,21 @@ background-size:cover;
     justify-content: space-between;
     font-family: MerriWeather;
     padding: 10px 40px;
-
 }
- #about img{
+
+#about img {
     width: 275%;
     height: 100%;
-} 
-#about p{
-    
-    margin-left: 5em;  
+}
+
+#about p {
+    margin-left: 5em;
     font-size: 24.65px;
     word-spacing: 2px;
-    color:black;
+    color: black;
 }
-#services{
+
+#services {
     background-image: url('Logo/adrien-olichon-ilVYjf0J378-unsplash.jpg');
     width: 100vw;
     height: 100vh;
@@ -87,70 +102,78 @@ background-size:cover;
     justify-content: center;
     overflow: hidden;
 }
-#technologies{
+
+#technologies {
     background-color: #14ffec;
 }
-#contact{
+
+#contact {
     background-color: #4383eb;
 }
-h1{
+
+h1 {
     position: absolute;
     font-size: 38px;
-     top: 35%;
-     left: 37.5%;
-     transform: translate(-78%,-50%);
-     color:#fff;   
-     font-family:MerriWeather;
-     
+    top: 35%;
+    left: 37.5%;
+    transform: translate(-78%, -50%);
+    color: #fff;
+    font-family: MerriWeather;
 }
-#welcome p{
+
+#welcome p {
     position: absolute;
-     top: 55%;
-     left: 45%;
-     transform: translate(-79%,-20%);
-     color:#fff;   
-     word-spacing:8px;
-     font-family:MerriWeather;
-     font-size: 30px;
- }
-.card{
-    
+    top: 55%;
+    left: 45%;
+    transform: translate(-79%, -20%);
+    color: #fff;
+    word-spacing: 8px;
+    font-family: MerriWeather;
+    font-size: 30px;
+}
+
+.card {
     display: grid;
     grid-template-columns: 300px;
     grid-template-rows: 210px 210px 80px;
     grid-template-areas: "image" "text";
-   margin:50px;
-   position: relative;   
+    margin: 50px;
+    position: relative;
     font-family: MerriWeather;
     border-radius: 18px;
     background: #fff;
-    box-shadow: 5px 5px 15px rgb(0,0,0,0.9);
+    box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.9);
     text-align: center;
     transition: 0.5s ease;
     cursor: pointer;
 }
-.card-image{
+
+.card-image {
     grid-area: image;
-    background:url('Logo/cloudcomputing.jpg');
+    background: url('Logo/cloudcomputing.jpg');
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    background-size: cover;   
+    background-size: cover;
 }
-.card-text{
+
+.card-text {
     grid-area: text;
     margin: 25px;
 }
-.card-text p{
+
+.card-text p {
     color: gray;
     font-size: 15px;
     font-weight: 800;
     word-spacing: 2px;
 }
-.card-text h2{
+
+.card-text h2 {
     margin-top: 0px;
     font-size: 28px;
-} 
+}
+
 .card:hover {
     transform: scale(1.15);
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
-  } 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
