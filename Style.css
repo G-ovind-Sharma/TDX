@@ -17,16 +17,17 @@ div,section,ul,li,a,header{
 
 header{ 
     width: 100%;
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     padding: 10px 40px;
+    margin-top: 0px;
     align-items: center;
     position: fixed;
     z-index: 999;
     background-color: white;
 }
 #navbar li{
-    list-style: none;
+    list-style: none    ;
     display: inline-block;
     margin: 20px;
 }
@@ -57,7 +58,25 @@ background-image: url('Logo/background-texture-natural-leaves-dark-green.jpg');
 background-size:cover;   
 }
 #about{
-    background-color: #323232;
+    width: 100%;
+    /* background-image: url('Logo/nastuh-abootalebi-ZtC4_rPCRXA-unsplash.jpg'); */
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    font-family: MerriWeather;
+    padding: 10px 40px;
+
+}
+ #about img{
+    width: 275%;
+    height: 100%;
+} 
+#about p{
+    
+    margin-left: 5em;  
+    font-size: 24.65px;
+    word-spacing: 2px;
+    color:black;
 }
 #services{
     background-color: #0d7377;
@@ -78,7 +97,7 @@ h1{
      font-family:MerriWeather;
      
 }
-p{
+#welcome p{
     position: absolute;
      top: 55%;
      left: 45%;
