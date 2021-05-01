@@ -133,11 +133,14 @@ h1 {
 }
 
 .card {
+    width: 150vw;
+
+    
     display: grid;
     grid-template-columns: 300px;
     grid-template-rows: 210px 210px 80px;
     grid-template-areas: "image" "text";
-    margin: 50px;
+    margin: 1rem;
     position: relative;
     font-family: MerriWeather;
     border-radius: 18px;
