@@ -91,6 +91,7 @@ section {
     font-size: 24.65px;
     word-spacing: 2px;
     color: black;
+    justify-content: space-evenly;
 }
 
 #services {
