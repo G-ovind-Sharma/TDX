@@ -1,6 +1,6 @@
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -67,16 +67,15 @@ section {
 }
 
 #welcome {
-    background-image: url('Logo/background-texture-natural-leaves-dark-green.jpg');
+    background-image: url('Logo/76826.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #about {
     width: 100%;
-    /* background-image: url('Logo/nastuh-abootalebi-ZtC4_rPCRXA-unsplash.jpg'); */
-    background-size: cover;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     font-family: MerriWeather;
     padding: 10px 40px;
 }
@@ -102,10 +101,6 @@ section {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-}
-
-#technologies {
-    background-color: #14ffec;
 }
 
 #contact {
@@ -223,4 +218,8 @@ section {
 .card:hover {
     transform: scale(1.027);
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+#technologies {
+    background-color: tomato;
 }
