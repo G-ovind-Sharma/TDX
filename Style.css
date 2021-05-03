@@ -104,10 +104,6 @@ section {
     overflow: hidden;
 }
 
-#contact {
-    background-color: #4383eb;
-}
-
 #welcome h1 {
     position: absolute;
     font-size: 38px;
@@ -322,4 +318,75 @@ section {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
     transition: 0.5s ease;
     background-color: #f5f5f5;
+}
+
+
+/* .contact {
+    background-color: #4383eb;
+}
+
+.contactfrom {
+    width: 100%;
+}
+
+.h1con {
+    padding-top: 30px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.formcontrol {
+    text-align: center;
+} */
+
+.contact {
+    height: 120vh;
+    background: url(Logo/tim-durgan-WZxZvsxtV40-unsplash.jpg);
+    background-size: cover;
+}
+
+.h3con {
+    font-size: 40px;
+    text-align: center;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+select,
+textarea {
+    background: transparent;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    cursor: pointer;
+}
+
+.container {
+    margin-left: 200px;
+    width: 70%;
+    border-radius: 5px;
+    background: transparent;
+    align-items: center;
+    background-size: cover;
+    color: rgb(10, 5, 51);
+    font-size: 20px;
 }
