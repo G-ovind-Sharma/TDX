@@ -74,46 +74,29 @@ section {
 }
 
 #about {
-    height: 110vh;
-    background-color: pink;
+    height: 80vh;
     width: 100%;
-    display: flex;
     justify-content: center;
     font-family: MerriWeather;
     padding: 10px 40px;
     text-align: justify;
     text-justify: inter-word;
-      
-}
-#adout h2{
-    font-size: 25px;
-    align-items: center;
-    margin-left: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    background: url(Logo/ryan-klaus-VeGfXKMrDZk-unsplash.jpg);
+    background-size: cover;
 }
 
-#about img {
-    width: 275%;
-    height: 100%;
+#h1abou {
+    font-size: 50px;
+    text-align: center;
 }
 
 #about p {
-    margin-left: 5em;
+    margin-top: 0px;
+    margin-left: 2em;
     font-size: 24.65px;
     word-spacing: 2px;
     color: black;
     justify-content: space-evenly;
-}
-
-#services {
-    background-color: white;
-    width: 100%;
-    height: 101%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
 }
 
 #welcome h1 {
@@ -136,12 +119,29 @@ section {
     font-family: MerriWeather;
     font-size: 30px;
     text-align: justify;
-    text-justify:  inter-word;
+    text-justify: inter-word;
+}
+
+#services {
+    background-color: #edeeef;
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#heading {
+    height: 8vh;
+    text-align: center;
+    font-size: 30px;
+    background: #edeeef;
 }
 
 .card {
-    width: 18.7%;
-    height: 10%;
+    width: 18.9%;
+    height: 72%;
     display: grid;
     grid-template-columns: 300px;
     grid-template-rows: 210px 210px 80px;
@@ -235,6 +235,13 @@ section {
 #technologies {
     background-color: white;
     height: 132vh;
+}
+
+#Theading {
+    height: 8.29vh;
+    text-align: center;
+    font-size: 30px;
+    background: white
 }
 
 .container {
