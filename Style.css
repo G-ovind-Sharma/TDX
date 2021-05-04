@@ -341,8 +341,9 @@ section {
 
 .contact {
     height: 120vh;
-    background: url(Logo/tim-durgan-WZxZvsxtV40-unsplash.jpg);
-    background-size: cover;
+    background: url(Logo/ryan-klaus-VeGfXKMrDZk-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .h3con {
@@ -367,7 +368,7 @@ textarea {
 }
 
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #0763a0;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -376,8 +377,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #5bb8f7;
     cursor: pointer;
+    transition: 0.12s ease;
 }
 
 .container {
