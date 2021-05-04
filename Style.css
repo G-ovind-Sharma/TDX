@@ -74,6 +74,8 @@ section {
 }
 
 #about {
+    height: 110vh;
+    background-color: pink;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -82,6 +84,13 @@ section {
     text-align: justify;
     text-justify: inter-word;
       
+}
+#adout h2{
+    font-size: 25px;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #about img {
@@ -126,6 +135,8 @@ section {
     word-spacing: 8px;
     font-family: MerriWeather;
     font-size: 30px;
+    text-align: justify;
+    text-justify:  inter-word;
 }
 
 .card {
