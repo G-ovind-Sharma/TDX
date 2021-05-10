@@ -72,6 +72,7 @@ header {
     transform: translate(-78%, -50%);
     color: #fff;
     font-family: MerriWeather;
+    margin-left: -29px;
 }
 
 #welcome p {
