@@ -115,7 +115,9 @@ section {
     padding: 10px 40px;
     text-align: justify;
     text-justify: inter-word;
-    background-color: teal;
+    /* background-color: teal; */
+    background-image: url(Logo/17973908.jpg);
+    background-size: cover;
 }
 
 #h1abou {
@@ -130,7 +132,7 @@ section {
     margin-right: 10px;
     font-size: 24.65px;
     word-spacing: 2px;
-    color: white;
+    color: black;
     justify-content: center;
     font-size: 32.1px;
     margin-bottom: 20px;
