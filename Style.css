@@ -64,34 +64,6 @@ header {
     letter-spacing: 2.0px;
 }
 
-
-/* 
-#welcome h1 {
-    position: absolute;
-    font-size: 38px;
-    top: 35%;
-    left: 37.5%;
-    transform: translate(-78%, -50%);
-    color: #fff;
-    font-family: MerriWeather;
-    margin-left: -29px;
-}
-
-#welcome p {
-    position: absolute;
-    top: 55%;
-    left: 45%;
-    transform: translate(-79%, -20%);
-    color: #fff;
-    word-spacing: 8px;
-    font-family: MerriWeather;
-    font-size: 30px;
-    text-align: justify;
-    text-justify: inter-word;
-    margin-left: 1px;
-}
-*/
-
 #welcome {
     height: 10vh;
 }
@@ -165,7 +137,7 @@ section {
     width: 55%;
     float: right;
     background-color: #fdfdfd;
-    padding: 65px;
+    padding: 50px;
 }
 
 .inner-container h1 {
@@ -193,17 +165,44 @@ section {
 /* Services Section */
 
 #services {
-    background-color: white;
     width: 100%;
-    height: 115vh;
+    height: 125vh;
+    background-color: #ebebeb;
+}
+
+.Scontainer {
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding-top: 50px;
+    background-color: #ebebeb;
+}
+
+.Servhead h1 {
+    padding-top: 70px;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+}
+
+.Servhead h1:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 10px;
+    width: 65px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: mediumpurple;
+    border-radius: 10px;
+    transform: translateY(10px);
 }
 
 .card {
-    margin-top: 100px;
+    margin-top: 10px;
     width: 18.9%;
     height: 66.5%;
     display: grid;
@@ -301,7 +300,29 @@ section {
 
 #technologies {
     background-color: white;
-    height: 150vh;
+    height: 236vh;
+}
+
+.techhead h1 {
+    padding-top: 70px;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+}
+
+.techhead h1:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 10px;
+    width: 65px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: mediumpurple;
+    border-radius: 10px;
+    transform: translateY(10px);
 }
 
 .container {
@@ -337,6 +358,17 @@ section {
 }
 
 .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row3 {
+    margin: 0 0;
+    padding-top: 30px;
+}
+
+.row3:after {
     content: "";
     display: table;
     clear: both;
@@ -406,24 +438,46 @@ section {
 
 #contact {
     height: 105vh;
-    background: url(Logo/ryan-klaus-VeGfXKMrDZk-unsplash.jpg);
+    background: #55ffe5;
 }
 
 .container {
     width: 80%;
-    margin: 50px;
+    margin: 50px auto;
 }
 
 .contactbox {
     background: #fff;
     display: flex;
-    margin-left: 198px;
+    margin-left: 80px;
     margin-top: 110px;
 }
 
 .contact-left {
-    flex-basis: 100%;
-    padding: 40px;
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.contact-right {
+    flex-basis: 40%;
+    background: #1c00b5;
+    color: #fff;
+}
+
+.contact-right h3 {
+    margin-top: 50px;
+    margin-left: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child {
+    padding-right: 15px;
+}
+
+tr td {
+    padding-top: 15px;
+    padding-left: 40px;
 }
 
 .inputr-row {
@@ -460,7 +514,7 @@ label {
 
 button {
     background: #1c00b5;
-    width: 10%;
+    width: 20%;
     border: none;
     outline: none;
     color: #fff;
@@ -474,7 +528,7 @@ button:hover {
     background: #030013;
     color: white;
     transition: 0.2s ease;
-    transform: scale(1.09);
+    transform: scale(1.10);
 }
 
 .contact-left h3 {
@@ -487,7 +541,7 @@ button:hover {
 
 .search_categories {
     font-size: 13px;
-    padding: 10px 8px 10px 14px;
+    padding: 3px 3px 3px 3px;
     background: #fff;
     border: 1px solid #ccc;
     border-radius: 6px;
@@ -510,5 +564,23 @@ button:hover {
     z-index: 10;
     font-size: 1em;
     outline: none;
+    text-align: center;
+}
+
+
+/* Footer Section */
+
+#footer {
+    position: relative;
+    height: 50px;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+    background: black;
+    color: white;
+}
+
+#footer p {
+    padding-top: 12px;
     text-align: center;
 }
